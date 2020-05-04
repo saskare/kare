@@ -11,6 +11,20 @@ header{
 	align-items: center;
 	height: 200px;
 }
+nav{
+	display: flex;
+	justify-content: center;
+	background-color: rgb(144, 213, 210);
+	box-shadow: 4px 4px 4px #318197;
+}
+button{
+	border: none;
+	background-color: rgb(144, 213, 210);
+	color: white;
+	font-size: 1em;
+	width: 400px;
+	
+}
 .contact{
 	font-size: 1.75em;
 	text-decoration: bold;
@@ -40,6 +54,7 @@ p{
 	font-size: 1.2em;
 	padding: 20px 20px 20px 20px;
 	margin: 50px 20px 20px 20px;
+	box-shadow: 4px 4px 4px #318197;
 
 }
 .accueil{ /*page accueil*/
@@ -90,16 +105,17 @@ p{
 .loading {/*page accueil*//*points suspensions animés*/
 	font-family: arial,verdana;
 	background-color: rgb(144, 213, 210);
-	color: rgb(47,93,91);
+	color: white;
 	font-size: 2em;
-	border: 3px solid #318197;
+	box-shadow: 6px 6px 6px #318197;
 	width: 300px;
 	height: 50px;
-	border-radius: 40px;
+	border-radius: 10px;
 	margin: auto;
 	margin-bottom: 100px;
 	margin-top: 50px;
 	padding: 10px 20px 10px 100px;
+	
 }
 
 	.loading:after{ /*page accueil*//*points suspensions animés*/
@@ -107,6 +123,7 @@ p{
 		animation: dotty steps(1,end) 2s infinite;
 		content: ' ';
 	}
+		
 
 	@keyframes dotty{  /*page accueil*//*points suspensions animés*/
 	  0%   { content: ''; }
@@ -175,7 +192,16 @@ footer{ /*toutes les pages*/
 	display: flex;
 	justify-content: center;
 	margin: 20px 50px 20px 50px;
+	border-radius: 6px;
+	border: 2px solid rgb(144, 213, 210)
+	
 }
+
+figure{
+	border-radius: 6px;
+	border: 2px solid white;
+}
+
 .smu{/*page Kare*/
 	font-size: 1.2em;
 	text-align: center;
@@ -187,7 +213,7 @@ h1{
 	font-size: 2.5em;
 	text-align: center;
 	margin-bottom: 75px;
-	color: red;
+	color: #E21247;
 } 
 
 h2{
